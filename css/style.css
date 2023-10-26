@@ -1,0 +1,76 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Add styles for shoe containers */
+.shoe {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: #f0f0f0;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+}
+
+.shoe img {
+  width: 250px; /* Set a fixed width for the shoe images */
+  height: 181px; /* Set a fixed height for the shoe images */
+}
+
+.shoe h3 {
+  margin: 1em 0;
+}
+
+/* Button styles */
+.btn-blue {
+  text-align: center;
+  position: relative;
+  background-color: #282828;
+  color: white;
+  display: inline-block;
+  width: auto;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+/* Display shoe articles horizontally */
+.shoes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
